@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Soumita's Dental Care | Gentle, Advanced Dentistry in Newtown, Kolkata</title>
+  <meta name="description" content="Dr. Soumita's Dental Care (ডঃ সৌমিতা'র ডেন্টাল কেয়ার) - Leading Dental Clinic in Chhapna Patharghata, Newtown Kolkata. Painless Root Canal, Cosmetic Dentistry & Family Care.">
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              300: '#7dd3fc',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+            },
+            accent: {
+              gold: '#D4AF37',
+              emerald: '#10b981',
+              dark: '#0f172a'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Custom refined animations & utilities */
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .hero-gradient {
+      background: radial-gradient(circle at 85% 20%, rgba(14, 165, 233, 0.12) 0%, transparent 60%),
+                  radial-gradient(circle at 10% 80%, rgba(2, 132, 199, 0.08) 0%, transparent 50%),
+                  #ffffff;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 8px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #94a3b8;
+      border-radius: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: #0284c7;
+    }
+  </style>
+</head>
+<body class="font-sans text-slate-800 bg-white antialiased custom-scroll">
+
+  <!-- 1. TOP ANNOUNCEMENT & QUICK CONTACT BAR -->
+  <div class="bg-slate-900 text-slate-200 text-xs sm:text-sm border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 py-2 sm:py-2.5 flex flex-col md:flex-row justify-between items-center gap-2">
+      <!-- Timings & Location -->
+      <div class="flex flex-wrap items-center justify-center gap-4 text-center md:text-left">
+        <span class="inline-flex items-center gap-1.5 text-brand-300">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+          <span>Chhapna Patharghata, Newtown, Kolkata - 700135</span>
+        </span>
+        <span class="hidden lg:inline text-slate-500">|</span>
+        <span class="inline-flex items-center gap-1.5 text-slate-300">
+          <i data-lucide="clock" class="w-3.5 h-3.5 text-brand-400"></i>
+          <span>Mon - Sat: 10AM - 1PM & 5:30PM - 9PM | Sun: By Appt</span>
+        </span>
+      </div>
+
+      <!-- Call & Emergency -->
+      <div class="flex items-center gap-4">
+        <a href="tel:+919046107636" class="inline-flex items-center gap-1.5 text-white font-medium hover:text-brand-300 transition-colors">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 text-emerald-400"></i>
+          <span>+91 9046107636</span>
+        </a>
+        <a href="https://wa.me/919046107636?text=Hello%20Dr.%20Soumita's%20Dental%20Care,%20I%20would%20like%20to%20inquire%20about%20an%20appointment." target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1 bg-emerald-600/90 hover:bg-emerald-600 text-white px-2.5 py-0.5 rounded-full text-xs font-semibold transition-all">
+          <i data-lucide="message-circle" class="w-3 h-3"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. STICKY HEADER & NAVIGATION -->
+  <header class="sticky top-0 z-40 glass-nav border-b border-slate-200/80 shadow-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logo Branding with LOG.jpeg -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-12 h-12 rounded-2xl bg-white p-1 border border-slate-200/80 shadow-sm flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform duration-300">
+          <img src="LOG.jpeg" alt="Dr. Soumita's Dental Care Logo" class="w-full h-full object-contain" onerror="this.src='https://placehold.co/120x120/white/5bb324?text=LOGO'">
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 group-hover:text-brand-600 transition-colors">Dr. Soumita's</span>
+            <span class="text-xs bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded-full uppercase tracking-wider hidden sm:inline-block">Dental Care</span>
+          </div>
+          <p class="text-xs text-slate-500 font-medium tracking-wide">ডঃ সৌমিতা'র ডেন্টাল কেয়ার &bull; Newtown, Kolkata</p>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center gap-7 font-medium text-sm text-slate-600">
+        <a href="#home" class="hover:text-brand-600 transition-colors">Home</a>
+        <a href="#about" class="hover:text-brand-600 transition-colors">About Doctor</a>
+        <a href="#services" class="hover:text-brand-600 transition-colors">Services</a>
+        <a href="#why-us" class="hover:text-brand-600 transition-colors">Why Choose Us</a>
+        <a href="#reviews" class="hover:text-brand-600 transition-colors">Testimonials</a>
+        <a href="#faqs" class="hover:text-brand-600 transition-colors">FAQs</a>
+        <a href="#contact" class="hover:text-brand-600 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Desktop Right Actions -->
+      <div class="hidden md:flex items-center gap-3">
+        <a href="#appointment" class="relative inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-brand-600 to-brand-500 rounded-xl shadow-lg shadow-brand-500/25 hover:from-brand-700 hover:to-brand-600 hover:shadow-brand-500/40 transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
+          <i data-lucide="calendar" class="w-4 h-4 mr-2"></i> Book Appointment
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobileMenuBtn" aria-label="Open Navigation Menu" class="lg:hidden p-2.5 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-brand-500">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Slide-out Drawer -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-200 bg-white/95 backdrop-blur-md px-6 py-6 space-y-4 shadow-xl">
+      <div class="flex flex-col space-y-3 font-semibold text-slate-700">
+        <a href="#home" class="mobile-nav-link py-2 border-b border-slate-100 hover:text-brand-600">Home</a>
+        <a href="#about" class="mobile-nav-link py-2 border-b border-slate-100 hover:text-brand-600">About Doctor</a>
+        <a href="#services" class="mobile-nav-link py-2 border-b border-slate-100 hover:text-brand-600">Dental Treatments</a>
+        <a href="#why-us" class="mobile-nav-link py-2 border-b border-slate-100 hover:text-brand-600">Why Us & Hygiene</a>
+        <a href="#reviews" class="mobile-nav-link py-2 border-b border-slate-100 hover:text-brand-600">Patient Reviews</a>
+        <a href="#faqs" class="mobile-nav-link py-2 border-b border-slate-100 hover:text-brand-600">Common FAQs</a>
+        <a href="#contact" class="mobile-nav-link py-2 hover:text-brand-600">Clinic Location & Hours</a>
+      </div>
+      <div class="pt-4 flex flex-col gap-3">
+        <a href="#appointment" class="mobile-nav-link w-full py-3 text-center font-bold text-white bg-brand-600 rounded-xl shadow-md">
+          Schedule Appointment
+        </a>
+        <a href="tel:+919046107636" class="w-full py-2.5 text-center font-semibold text-slate-700 bg-slate-100 rounded-xl flex items-center justify-center gap-2">
+          <i data-lucide="phone" class="w-4 h-4 text-brand-600"></i> Call +91 9046107636
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION -->
+  <section id="home" class="relative overflow-hidden hero-gradient pt-10 pb-16 lg:pt-16 lg:pb-24 border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Text Column -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center gap-2 bg-brand-50 border border-brand-200/80 px-3.5 py-1.5 rounded-full text-brand-800 text-xs sm:text-sm font-semibold tracking-wide shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+            <span>Welcoming New Patients &bull; Chhapna Patharghata, Newtown</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
+            Gentle, Advanced & <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-500">Pain-Free Dental Care</span> for Your Entire Family
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+            Led by <strong class="font-semibold text-slate-800">Dr. Soumita Pramanick</strong> [BDS (WBUHS), Reg. 5390-A]. Experience world-class Single-Sitting Root Canal Treatments, high-precision cosmetic smile makeovers, and hygienic preventive dentistry right in Newtown Kolkata.
+          </p>
+
+          <!-- CTAs -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#appointment" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-bold text-white bg-brand-600 rounded-xl shadow-xl shadow-brand-500/25 hover:bg-brand-700 hover:shadow-brand-500/35 transition duration-200 gap-2">
+              <i data-lucide="calendar-check" class="w-5 h-5"></i>
+              Book Consultation
+            </a>
+            <a href="https://wa.me/919046107636?text=Hi%20Dr.%20Soumita,%20I%20would%20like%20to%20book%20a%20dental%20appointment%20at%20your%20Patharghata%20Newtown%20clinic." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 text-base font-semibold text-slate-700 bg-white border border-slate-200 rounded-xl shadow-sm hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-300 transition duration-200 gap-2">
+              <i data-lucide="message-square" class="w-5 h-5 text-emerald-500"></i>
+              Chat on WhatsApp
+            </a>
+          </div>
+
+          <!-- Trust Badges Grid -->
+          <div class="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-3 text-left">
+            <div class="bg-white/80 border border-slate-200/80 rounded-xl p-3 shadow-sm">
+              <div class="flex items-center gap-2">
+                <i data-lucide="award" class="w-5 h-5 text-brand-600 flex-shrink-0"></i>
+                <span class="text-xs font-bold text-slate-800 leading-tight">WBUHS Certified</span>
+              </div>
+              <p class="text-[11px] text-slate-500 mt-1">Regd. No. 5390-A</p>
+            </div>
+
+            <div class="bg-white/80 border border-slate-200/80 rounded-xl p-3 shadow-sm">
+              <div class="flex items-center gap-2">
+                <i data-lucide="shield-check" class="w-5 h-5 text-emerald-600 flex-shrink-0"></i>
+                <span class="text-xs font-bold text-slate-800 leading-tight">100% Sterile</span>
+              </div>
+              <p class="text-[11px] text-slate-500 mt-1">Class-B Autoclave</p>
+            </div>
+
+            <div class="bg-white/80 border border-slate-200/80 rounded-xl p-3 shadow-sm">
+              <div class="flex items-center gap-2">
+                <i data-lucide="activity" class="w-5 h-5 text-brand-600 flex-shrink-0"></i>
+                <span class="text-xs font-bold text-slate-800 leading-tight">Pain-Free Tech</span>
+              </div>
+              <p class="text-[11px] text-slate-500 mt-1">Rotary Endodontics</p>
+            </div>
+
+            <div class="bg-white/80 border border-slate-200/80 rounded-xl p-3 shadow-sm">
+              <div class="flex items-center gap-2">
+                <i data-lucide="smile" class="w-5 h-5 text-amber-500 flex-shrink-0"></i>
+                <span class="text-xs font-bold text-slate-800 leading-tight">1,500+ Smiles</span>
+              </div>
+              <p class="text-[11px] text-slate-500 mt-1">Happy Patients</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual / Interactive Doctor Card -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md bg-gradient-to-b from-brand-50 to-white border border-brand-100 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-brand-500/10">
+            
+            <div class="absolute -top-4 -right-4 bg-emerald-500 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1 z-10">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5"></i> Open Today
+            </div>
+
+            <div class="flex items-center gap-4 border-b border-slate-100 pb-5">
+              <div class="w-20 h-20 rounded-2xl p-0.5 bg-gradient-to-tr from-brand-600 to-emerald-400 flex-shrink-0 shadow-md overflow-hidden">
+                <img src="Dr. Soumita Image.jpeg" alt="Dr. Soumita Pramanick" class="w-full h-full object-cover object-top rounded-xl" onerror="this.src='https://placehold.co/160x160/0284c7/white?text=Dr.+Soumita'">
+              </div>
+              <div>
+                <h3 class="font-bold text-lg text-slate-900">Dr. Soumita Pramanick</h3>
+                <p class="text-brand-600 font-semibold text-xs">BDS (WBUHS), Regd. No. 5390-A</p>
+                <p class="text-slate-500 text-xs mt-0.5">Dental Surgeon & Endodontist</p>
+                <div class="flex items-center text-amber-400 text-xs mt-1">
+                  <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                  <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                  <span class="text-slate-600 font-semibold ml-1.5 text-xs">5.0 (Google Reviews)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fast Quick-Info highlights -->
+            <div class="py-4 space-y-3">
+              <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-brand-100 text-brand-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i data-lucide="zap" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-slate-800">Single-Sitting RCT Specialist</h4>
+                  <p class="text-xs text-slate-500">Advanced rotary apex locators ensure comfortable single-visit procedures.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i data-lucide="heart-pulse" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-slate-800">Zero-Anxiety Environment</h4>
+                  <p class="text-xs text-slate-500">Gentle treatment protocols suited for nervous patients & children.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i data-lucide="badge-check" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-slate-800">Transparent & Affordable</h4>
+                  <p class="text-xs text-slate-500">Honest treatment plans with clear breakdown of clinical costs.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Instant Booking Button on card -->
+            <div class="pt-2">
+              <a href="#appointment" class="block text-center w-full bg-slate-900 hover:bg-brand-600 text-white font-bold py-3 rounded-xl transition duration-200 text-sm shadow-md">
+                Book Instant Slot
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ABOUT DOCTOR SECTION -->
+  <section id="about" class="py-16 lg:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Doctor Credentials Column with Dr. Soumita Image.jpeg -->
+        <div class="lg:col-span-5">
+          <div class="relative bg-gradient-to-tr from-brand-600 via-sky-500 to-emerald-400 rounded-3xl p-1 shadow-2xl">
+            <div class="bg-white rounded-[22px] p-6 sm:p-7 space-y-5">
+              
+              <div class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-inner border border-slate-100 bg-slate-50">
+                <img src="Dr. Soumita Image.jpeg" alt="Dr. Soumita Pramanick - BDS Dental Surgeon" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/400x500/0284c7/white?text=Dr.+Soumita+Pramanick'">
+                <div class="absolute bottom-3 left-3 right-3 bg-white/95 backdrop-blur-md py-2 px-3 rounded-xl shadow-md border border-slate-200/60 flex items-center justify-between">
+                  <div>
+                    <p class="text-xs font-bold text-slate-900 leading-none">Verified Dental Surgeon</p>
+                    <p class="text-[10px] text-emerald-600 font-semibold mt-0.5">West Bengal Dental Council</p>
+                  </div>
+                  <span class="text-[10px] bg-brand-50 text-brand-700 font-bold px-2 py-0.5 rounded-md border border-brand-200">5390-A</span>
+                </div>
+              </div>
+
+              <div class="text-center pt-1">
+                <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-50 text-emerald-700 border border-emerald-200 mb-1.5">
+                  Clinical Director & Surgeon
+                </span>
+                <h3 class="text-2xl font-extrabold text-slate-900">Dr. Soumita Pramanick</h3>
+                <p class="text-sm font-semibold text-brand-600">BDS (WBUHS), Regd. No. 5390-A</p>
+                <p class="text-xs text-slate-500 mt-0.5">West Bengal University of Health Sciences</p>
+              </div>
+
+              <div class="border-t border-b border-slate-100 py-3 grid grid-cols-2 gap-4 text-center">
+                <div>
+                  <span class="block text-2xl font-extrabold text-brand-600">8+</span>
+                  <span class="text-xs text-slate-500 font-medium">Years Experience</span>
+                </div>
+                <div>
+                  <span class="block text-2xl font-extrabold text-emerald-600">100%</span>
+                  <span class="text-xs text-slate-500 font-medium">Autoclaved Safety</span>
+                </div>
+              </div>
+
+              <ul class="text-xs space-y-2.5 text-slate-600 font-medium">
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-4 h-4 text-emerald-500 flex-shrink-0"></i>
+                  <span>Certified in Rotary Endodontics & Micro-Dentistry</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-4 h-4 text-emerald-500 flex-shrink-0"></i>
+                  <span>Specialized Aesthetic Restorations & Smile Makeovers</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-4 h-4 text-emerald-500 flex-shrink-0"></i>
+                  <span>Expert in Painless Paediatric & Geriatric Dental Care</span>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Bio & Philosophy -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-block text-xs font-bold tracking-wider text-brand-600 uppercase bg-brand-50 px-3 py-1 rounded-full">
+            Meet Your Dental Surgeon
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            "Your Comfort, Natural Smile & Long-term Dental Health Come First."
+          </h2>
+          <p class="text-slate-600 text-base leading-relaxed">
+            Welcome to <strong class="text-slate-800">Dr. Soumita's Dental Care (ডঃ সৌমিতা'র ডেন্টাল কেয়ার)</strong>. Headed by Dr. Soumita Pramanick, our clinic was founded with a singular mission: providing gentle, state-of-the-art dental solutions with utmost empathy and medical integrity in Newtown, Kolkata.
+          </p>
+          <p class="text-slate-600 text-base leading-relaxed">
+            We understand dental visits can cause anxiety. That's why our practice incorporates cutting-edge technology—such as rotary endodontic equipment, high-accuracy digital apex locators, and minimal-trauma extraction tools—ensuring treatments like Root Canals feel no more stressful than a routine dental checkup.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+              <h4 class="font-bold text-slate-900 text-sm mb-1 flex items-center gap-2">
+                <i data-lucide="eye" class="w-4 h-4 text-brand-600"></i> Clear Diagnosis
+              </h4>
+              <p class="text-xs text-slate-600 leading-normal">Intraoral examinations are explained clearly with visuals before starting any treatment.</p>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+              <h4 class="font-bold text-slate-900 text-sm mb-1 flex items-center gap-2">
+                <i data-lucide="shield" class="w-4 h-4 text-brand-600"></i> Pain Prevention First
+              </h4>
+              <p class="text-xs text-slate-600 leading-normal">Computerized and gentle local anaesthesia techniques designed to minimize discomfort.</p>
+            </div>
+          </div>
+
+          <div class="pt-2">
+            <a href="tel:+919046107636" class="inline-flex items-center gap-2 text-brand-700 font-bold hover:text-brand-800 transition-colors">
+              <span>Have a question for Dr. Soumita? Call directly: <strong>+91 9046107636</strong></span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. SERVICES SECTION (পরিষেবা সমূহ) -->
+  <section id="services" class="py-16 lg:py-24 bg-slate-50 border-t border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14 space-y-3">
+        <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-100/70 px-3 py-1 rounded-full">
+          Comprehensive Dental Treatments &bull; পরিষেবা সমূহ
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900">
+          World-Class Dental Solutions Under One Roof
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          From preventive cleanings and single-sitting Root Canals to complete aesthetic smile restorations, every procedure is performed under stringent sterile standards.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- 1. Single Sitting RCT -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:border-brand-300 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-4 group-hover:bg-brand-600 group-hover:text-white transition-colors duration-300">
+              <i data-lucide="activity" class="w-6 h-6"></i>
+            </div>
+            <span class="text-[11px] font-bold text-brand-600 uppercase tracking-wider">Signature Speciality</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Single-Sitting Root Canal (RCT)</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Pain-free therapy using rotary endodontics and electronic apex locators to eliminate infection while preserving your natural tooth in one quick session.
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">Duration: ~45 mins</span>
+            <button onclick="openServiceModal('rct')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Crowns & Bridges -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:border-brand-300 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center mb-4 group-hover:bg-sky-600 group-hover:text-white transition-colors duration-300">
+              <i data-lucide="shield" class="w-6 h-6"></i>
+            </div>
+            <span class="text-[11px] font-bold text-sky-600 uppercase tracking-wider">Restoration</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Zirconia Crowns & Bridges</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              High-strength monolithic Zirconia, full ceramic, and porcelain-fused-to-metal (PFM) crowns customized for natural bite mechanics and seamless aesthetics.
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">10-15 Yr Warranty</span>
+            <button onclick="openServiceModal('crowns')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. Cosmetic Smile Design & Teeth Whitening -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:border-brand-300 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-4 group-hover:bg-amber-600 group-hover:text-white transition-colors duration-300">
+              <i data-lucide="sparkles" class="w-6 h-6"></i>
+            </div>
+            <span class="text-[11px] font-bold text-amber-600 uppercase tracking-wider">Aesthetics</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Teeth Whitening & Smile Design</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Professional in-office laser whitening, composite veneers, and smile transformation to erase years of coffee, tea, and tobacco stains safely.
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">Up to 6 Shades Lighter</span>
+            <button onclick="openServiceModal('whitening')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 4. Painless Extractions & Wisdom Tooth -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:border-brand-300 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-red-50 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-500 group-hover:text-white transition-colors duration-300">
+              <i data-lucide="scissors" class="w-6 h-6"></i>
+            </div>
+            <span class="text-[11px] font-bold text-red-500 uppercase tracking-wider">Oral Surgery</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Painless Extractions & Wisdom Teeth</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Minimally invasive tooth removals and surgical impaction for impacted wisdom teeth with quick recovery and zero bone trauma.
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">Gentle Anaesthesia</span>
+            <button onclick="openServiceModal('extractions')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 5. Scaling, Polishing & Gum Therapy -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:border-brand-300 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+              <i data-lucide="droplets" class="w-6 h-6"></i>
+            </div>
+            <span class="text-[11px] font-bold text-emerald-600 uppercase tracking-wider">Preventive Care</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Ultrasonic Scaling & Gum Therapy</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Gentle ultrasonic removal of stubborn calculus, tartar, and bacteria to treat bleeding gums, bad breath, and reverse early gingivitis.
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">Every 6 Months</span>
+            <button onclick="openServiceModal('scaling')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 6. Composite Tooth-Colored Fillings -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:border-brand-300 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mb-4 group-hover:bg-purple-600 group-hover:text-white transition-colors duration-300">
+              <i data-lucide="layers" class="w-6 h-6"></i>
+            </div>
+            <span class="text-[11px] font-bold text-purple-600 uppercase tracking-wider">Conservative</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Composite Tooth-Colored Fillings</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Invisible, light-cured composite resin fillings that blend identically with your natural enamel to fix cavities and minor chipping.
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">Mercury-Free</span>
+            <button onclick="openServiceModal('fillings')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 7. Kids / Paediatric Dentistry -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:border-brand-300 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-orange-50 text-orange-600 flex items-center justify-center mb-4 group-hover:bg-orange-600 group-hover:text-white transition-colors duration-300">
+              <i data-lucide="smile" class="w-6 h-6"></i>
+            </div>
+            <span class="text-[11px] font-bold text-orange-600 uppercase tracking-wider">Child Care</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Paediatric Dental Care</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Fluoride treatments, pit & fissure sealants, gentle milk teeth fillings, and habit-breaking appliances delivered in a friendly, playful setting.
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">Kid-Friendly</span>
+            <button onclick="openServiceModal('kids')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 8. Dentures & Prosthetics -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:border-brand-300 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-4 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-300">
+              <i data-lucide="heart" class="w-6 h-6"></i>
+            </div>
+            <span class="text-[11px] font-bold text-indigo-600 uppercase tracking-wider">Prosthodontics</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Complete & Partial Dentures</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Flexible, lightweight BPS and cast-partial dentures engineered for seniors to chew comfortably, speak with clarity, and restore facial structure.
+            </p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">Custom Fit</span>
+            <button onclick="openServiceModal('dentures')" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+              Details <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. CLINICAL HYGIENE & STERILIZATION STANDARDS -->
+  <section id="why-us" class="py-16 lg:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-slate-900 rounded-3xl p-8 sm:p-12 text-white relative overflow-hidden">
+        
+        <!-- Subtle background glow -->
+        <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-3xl mb-10">
+          <span class="text-xs font-bold uppercase tracking-wider text-brand-400 bg-brand-900/60 border border-brand-700/50 px-3 py-1 rounded-full">
+            Uncompromising Safety & Protocols
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-3">
+            Hospital-Grade Sterilization & 4-Tier Hygiene Protocol
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base mt-2">
+            At Dr. Soumita's Dental Care, patient safety is our highest pledge. Every instrument passes rigorous medical sterilization to eliminate any risk of cross-infection.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-2xl">
+            <div class="w-10 h-10 rounded-xl bg-brand-500/20 text-brand-400 flex items-center justify-center mb-3">
+              <i data-lucide="shield-alert" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-white text-base mb-1">Class-B Autoclave</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">Medical vacuum autoclaving at 134°C kills 100% of bacterial spores and viral pathogens.</p>
+          </div>
+
+          <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-2xl">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-3">
+              <i data-lucide="package-check" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-white text-base mb-1">Single-Use Kits</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">Sterile disposable patient drapes, suction tips, gloves, and pouches opened right in front of you.</p>
+          </div>
+
+          <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-2xl">
+            <div class="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center mb-3">
+              <i data-lucide="cpu" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-white text-base mb-1">Digital Endodontics</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">Rotary motors with integrated apex locators minimize radiation and enhance root canal success.</p>
+          </div>
+
+          <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-2xl">
+            <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center mb-3">
+              <i data-lucide="sparkle" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-white text-base mb-1">Surface Disinfection</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">Operatory chairs and surfaces sanitized with hospital-grade disinfectant wipes between patients.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. APPOINTMENT SCHEDULER & BOOKING FORM -->
+  <section id="appointment" class="py-16 lg:py-24 bg-gradient-to-b from-brand-50/50 to-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-white rounded-3xl border border-brand-200/80 shadow-2xl overflow-hidden">
+        <div class="bg-gradient-to-r from-brand-700 to-brand-500 px-6 sm:px-10 py-8 text-white">
+          <span class="inline-block text-xs font-bold uppercase tracking-wider bg-white/20 px-3 py-1 rounded-full mb-2">
+            Priority Scheduling &bull; সরাসরি বুকিং
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold">Book Your Dental Consultation</h2>
+          <p class="text-brand-100 text-xs sm:text-sm mt-1">
+            Choose your preferred time slot. We will confirm your appointment via Call & WhatsApp within 30 minutes.
+          </p>
+        </div>
+
+        <form id="bookingForm" class="p-6 sm:p-10 space-y-6" onsubmit="handleAppointmentSubmit(event)">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- Patient Name -->
+            <div>
+              <label for="patientName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Patient Full Name *
+              </label>
+              <div class="relative">
+                <i data-lucide="user" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                <input type="text" id="patientName" required placeholder="e.g. Anirban Roy" class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:bg-white focus:outline-none transition-all">
+              </div>
+            </div>
+
+            <!-- Phone Number -->
+            <div>
+              <label for="patientPhone" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Phone / WhatsApp Number *
+              </label>
+              <div class="relative">
+                <i data-lucide="phone" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                <input type="tel" id="patientPhone" required placeholder="e.g. +91 98300 XXXXX" class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:bg-white focus:outline-none transition-all">
+              </div>
+            </div>
+
+            <!-- Service Required -->
+            <div>
+              <label for="serviceType" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Service Required *
+              </label>
+              <div class="relative">
+                <i data-lucide="briefcase" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                <select id="serviceType" required class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:bg-white focus:outline-none transition-all">
+                  <option value="" disabled selected>Select Dental Concern / Treatment</option>
+                  <option value="General Consultation & Checkup">General Consultation & Checkup</option>
+                  <option value="Single-Sitting Root Canal (RCT)">Single-Sitting Root Canal (RCT)</option>
+                  <option value="Severe Toothache / Emergency">Severe Toothache / Emergency Relief</option>
+                  <option value="Crowns & Bridges (Zirconia / Ceramic)">Crowns & Bridges (Zirconia / Ceramic)</option>
+                  <option value="Teeth Cleaning & Polishing (Scaling)">Teeth Cleaning & Polishing (Scaling)</option>
+                  <option value="Tooth Extraction / Wisdom Tooth">Tooth Extraction / Wisdom Tooth</option>
+                  <option value="Tooth Fillings (Composite / GIC)">Tooth Fillings (Composite / GIC)</option>
+                  <option value="Teeth Whitening / Smile Makeover">Teeth Whitening / Smile Makeover</option>
+                  <option value="Kids Dentistry">Kids Dentistry</option>
+                  <option value="Dentures (Complete / Partial)">Dentures (Complete / Partial)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Preferred Date -->
+            <div>
+              <label for="preferredDate" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Preferred Date *
+              </label>
+              <div class="relative">
+                <i data-lucide="calendar" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                <input type="date" id="preferredDate" required class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:bg-white focus:outline-none transition-all">
+              </div>
+            </div>
+
+            <!-- Time Slot -->
+            <div>
+              <label for="preferredSlot" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Preferred Shift *
+              </label>
+              <div class="relative">
+                <i data-lucide="clock" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                <select id="preferredSlot" required class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:bg-white focus:outline-none transition-all">
+                  <option value="Morning Shift (10:00 AM - 01:00 PM)">Morning Shift (10:00 AM - 01:00 PM)</option>
+                  <option value="Evening Shift (05:30 PM - 09:00 PM)" selected>Evening Shift (05:30 PM - 09:00 PM)</option>
+                  <option value="Sunday (Prior Appointment Only)">Sunday (Prior Appointment Only)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Patient Age or Notes -->
+            <div>
+              <label for="patientAge" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                Patient Age (Optional)
+              </label>
+              <div class="relative">
+                <i data-lucide="hash" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                <input type="number" id="patientAge" min="2" max="110" placeholder="e.g. 34" class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:bg-white focus:outline-none transition-all">
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Description / Symptoms -->
+          <div>
+            <label for="patientConcern" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+              Specific Dental Symptoms / Questions
+            </label>
+            <textarea id="patientConcern" rows="3" placeholder="Briefly describe what you are experiencing (e.g., sensitivity to cold water, sharp pain when chewing on lower molar, bleeding gums)..." class="w-full px-4 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:bg-white focus:outline-none transition-all"></textarea>
+          </div>
+
+          <!-- Submit Buttons -->
+          <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2 border-t border-slate-100">
+            <p class="text-xs text-slate-500 text-center sm:text-left">
+              <i data-lucide="shield-check" class="w-4 h-4 text-emerald-500 inline mr-1"></i>
+              Your contact details are strictly confidential.
+            </p>
+            <div class="flex flex-wrap items-center gap-3 w-full sm:w-auto">
+              <button type="submit" class="w-full sm:w-auto px-8 py-3.5 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl shadow-lg shadow-brand-500/25 transition flex items-center justify-center gap-2">
+                <i data-lucide="check" class="w-4 h-4"></i> Submit Appointment Request
+              </button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. PATIENT REVIEWS & TESTIMONIALS -->
+  <section id="reviews" class="py-16 lg:py-24 bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14 space-y-2">
+        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full">
+          Verified Patient Experiences
+        </span>
+        <h2 class="text-3xl font-extrabold text-slate-900">What Our Patients Say</h2>
+        <p class="text-slate-500 text-sm">Real reviews from residents across Newtown, Rajarhat, and Patharghata.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Review 1 -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/80 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 italic leading-relaxed mb-4">
+              "I had terrible toothache and was terrified of root canal treatment. Dr. Soumita was so gentle! The single-sitting RCT was completed with absolutely zero pain. Her clinic at Patharghata is spotless and well equipped."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-3 border-t border-slate-200/60">
+            <div class="w-9 h-9 rounded-full bg-brand-200 text-brand-800 font-bold flex items-center justify-center text-xs">
+              SD
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-slate-900">Subhashree Das</h4>
+              <p class="text-[11px] text-slate-500">Newtown Action Area 3 &bull; RCT & Crown</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/80 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 italic leading-relaxed mb-4">
+              "Brought my 7-year-old daughter for tooth filling. Dr. Soumita treated her with such patience and warmth that my daughter wasn't scared at all. Very reasonable charges and very clean clinic environment."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-3 border-t border-slate-200/60">
+            <div class="w-9 h-9 rounded-full bg-emerald-200 text-emerald-800 font-bold flex items-center justify-center text-xs">
+              MB
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-slate-900">Moumita Bhattacharya</h4>
+              <p class="text-[11px] text-slate-500">Chhapna &bull; Paediatric Care</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200/80 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3">
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-700 italic leading-relaxed mb-4">
+              "Got my teeth scaling and ceramic bridge done here. Dr. Pramanick explained each step clearly on the X-ray before beginning. Honest advice, no unnecessary treatments pushed. Highly recommended dental surgeon."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-3 border-t border-slate-200/60">
+            <div class="w-9 h-9 rounded-full bg-sky-200 text-sky-800 font-bold flex items-center justify-center text-xs">
+              RM
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-slate-900">Rajesh Mondal</h4>
+              <p class="text-[11px] text-slate-500">Patharghata Newtown &bull; Scaling & Bridge</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. FREQUENTLY ASKED QUESTIONS (FAQS) -->
+  <section id="faqs" class="py-16 lg:py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-100 px-3 py-1 rounded-full">
+          Got Questions?
+        </span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mt-2">Frequently Asked Dental Questions</h2>
+        <p class="text-slate-500 text-sm mt-1">Clear answers to help you prepare for your clinic visit.</p>
+      </div>
+
+      <div class="space-y-4" id="faqAccordion">
+
+        <!-- FAQ Item 1 -->
+        <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          <button type="button" onclick="toggleFaq(1)" class="w-full px-6 py-4 text-left font-bold text-slate-800 text-sm sm:text-base flex justify-between items-center hover:text-brand-600 transition">
+            <span>Is a Root Canal Treatment (RCT) painful?</span>
+            <i id="faq-icon-1" data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-1" class="hidden px-6 pb-4 pt-1 text-xs sm:text-sm text-slate-600 border-t border-slate-100 leading-relaxed">
+            With modern local anaesthetics and advanced rotary endodontics, a root canal is virtually painless. In fact, RCT eliminates the agonizing pain caused by dental pulp infection and nerve inflammation. Most patients report feeling only gentle pressure.
+          </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          <button type="button" onclick="toggleFaq(2)" class="w-full px-6 py-4 text-left font-bold text-slate-800 text-sm sm:text-base flex justify-between items-center hover:text-brand-600 transition">
+            <span>Can a Root Canal really be finished in a single sitting?</span>
+            <i id="faq-icon-2" data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-2" class="hidden px-6 pb-4 pt-1 text-xs sm:text-sm text-slate-600 border-t border-slate-100 leading-relaxed">
+            Yes, in most cases where acute infection has not spread excessively into bone, single-visit endodontics is completely safe, highly effective, and clinically proven. It saves you multiple dental visits and injections.
+          </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          <button type="button" onclick="toggleFaq(3)" class="w-full px-6 py-4 text-left font-bold text-slate-800 text-sm sm:text-base flex justify-between items-center hover:text-brand-600 transition">
+            <span>What are the clinic timings in Chhapna Patharghata?</span>
+            <i id="faq-icon-3" data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-3" class="hidden px-6 pb-4 pt-1 text-xs sm:text-sm text-slate-600 border-t border-slate-100 leading-relaxed">
+            The clinic is open <strong>Monday to Saturday</strong> with two convenient shifts: 
+            <strong>Morning (10:00 AM – 1:00 PM)</strong> and <strong>Evening (5:30 PM – 9:00 PM)</strong>. Sundays are reserved for special appointments and emergency consultations.
+          </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          <button type="button" onclick="toggleFaq(4)" class="w-full px-6 py-4 text-left font-bold text-slate-800 text-sm sm:text-base flex justify-between items-center hover:text-brand-600 transition">
+            <span>Does ultrasonic scaling loosen teeth or thin enamel?</span>
+            <i id="faq-icon-4" data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
+          </button>
+          <div id="faq-content-4" class="hidden px-6 pb-4 pt-1 text-xs sm:text-sm text-slate-600 border-t border-slate-100 leading-relaxed">
+            No, this is a common myth. Ultrasonic scalers only vibrate away harmful plaque, tartar, and bacterial calculus. They do not damage healthy enamel. Scaling protects teeth from loosening caused by progressive gum diseases.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. CLINIC LOCATION, CONTACT & MAP -->
+  <section id="contact" class="py-16 lg:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
+        
+        <!-- Contact Information Card -->
+        <div class="lg:col-span-5 bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-8 sm:p-10 text-white flex flex-col justify-between shadow-xl">
+          
+          <div class="space-y-6">
+            <div>
+              <span class="text-xs font-bold text-brand-400 uppercase tracking-widest">Visit Our Practice</span>
+              <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Dr. Soumita's Dental Care</h2>
+              <p class="text-xs text-slate-400 font-medium">ডঃ সৌমিতা'র ডেন্টাল কেয়ার &bull; Chhapna Patharghata</p>
+            </div>
+
+            <!-- Details -->
+            <div class="space-y-4 text-sm">
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-slate-700/80 text-brand-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i data-lucide="map-pin" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-200">Clinic Address</h4>
+                  <p class="text-slate-400 text-xs mt-0.5 leading-relaxed">
+                    Chhapna Patharghata, Newtown, Kolkata, West Bengal - 700135
+                  </p>
+                  <p class="text-[11px] text-brand-400 mt-1">Landmark: Near Patharghata Main Road, Newtown</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-slate-700/80 text-emerald-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i data-lucide="phone" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-200">Phone & Appointments</h4>
+                  <a href="tel:+919046107636" class="text-slate-300 text-xs mt-0.5 block hover:text-white font-semibold">
+                    +91 9046107636
+                  </a>
+                  <span class="text-[11px] text-emerald-400">Direct Doctor & Clinic Line</span>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-slate-700/80 text-brand-300 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <i data-lucide="clock" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-200">Clinic Hours</h4>
+                  <p class="text-slate-400 text-xs mt-0.5">
+                    <strong>Mon - Sat:</strong> 10:00 AM - 1:00 PM <br>
+                    <strong>Evening:</strong> 5:30 PM - 9:00 PM <br>
+                    <strong>Sunday:</strong> By Prior Appointment
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direct WhatsApp Action Button -->
+          <div class="pt-6 border-t border-slate-700/80">
+            <a href="https://wa.me/919046107636?text=Hello%20Dr.%20Soumita's%20Dental%20Care,%20I%20need%20assistance%20regarding%20directions/appointment." target="_blank" rel="noopener noreferrer" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-4 rounded-xl text-center text-sm flex items-center justify-center gap-2 transition shadow-md">
+              <i data-lucide="message-circle" class="w-4 h-4"></i> Connect on WhatsApp
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Google Map Section -->
+        <div class="lg:col-span-7 bg-slate-100 rounded-3xl border border-slate-200 overflow-hidden shadow-inner flex flex-col min-h-[360px]">
+          <div class="p-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
+            <span class="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+              <i data-lucide="navigation" class="w-3.5 h-3.5 text-brand-600"></i> Live Navigation & Directions
+            </span>
+            <a href="https://maps.google.com/?q=Chhapna+Patharghata+Newtown+Kolkata+700135" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-600 hover:underline">
+              Open in Google Maps &rarr;
+            </a>
+          </div>
+          <div class="flex-1 w-full relative">
+            <!-- Responsive Embedded Map centered on Chhapna Patharghata Newtown Kolkata -->
+            <iframe 
+              title="Dr Soumita Dental Care Location Map"
+              class="w-full h-full min-h-[350px] border-0"
+              src="https://maps.google.com/maps?q=Chhapna%20Patharghata%20Newtown%20Kolkata%20700135&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 11. FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 text-xs border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        
+        <!-- Clinic Branding with LOG.jpeg -->
+        <div class="space-y-3 md:col-span-1">
+          <div class="flex items-center gap-2.5">
+            <div class="w-9 h-9 rounded-xl bg-white p-1 flex items-center justify-center overflow-hidden shadow-sm flex-shrink-0">
+              <img src="LOG.jpeg" alt="Logo" class="w-full h-full object-contain" onerror="this.src='https://placehold.co/80x80/white/5bb324?text=LOGO'">
+            </div>
+            <span class="text-sm font-bold text-white">Dr. Soumita's Dental Care</span>
+          </div>
+          <p class="text-slate-400 text-xs leading-relaxed">
+            ডঃ সৌমিতা'র ডেন্টাল কেয়ার &bull; Dedicated to quality, painless, modern dentistry in Chhapna Patharghata, Newtown, Kolkata.
+          </p>
+          <p class="text-[11px] text-slate-500">
+            Regd. No. 5390-A (WBUHS)
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#home" class="hover:text-white transition">Home</a></li>
+            <li><a href="#about" class="hover:text-white transition">About Dr. Soumita</a></li>
+            <li><a href="#services" class="hover:text-white transition">Dental Treatments</a></li>
+            <li><a href="#why-us" class="hover:text-white transition">Hygiene & Safety</a></li>
+            <li><a href="#appointment" class="hover:text-white transition">Book Consultation</a></li>
+          </ul>
+        </div>
+
+        <!-- Core Treatments -->
+        <div>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Specialities</h4>
+          <ul class="space-y-2">
+            <li><a href="#services" class="hover:text-white transition">Single Sitting RCT</a></li>
+            <li><a href="#services" class="hover:text-white transition">Zirconia Crowns</a></li>
+            <li><a href="#services" class="hover:text-white transition">Teeth Whitening</a></li>
+            <li><a href="#services" class="hover:text-white transition">Painless Extractions</a></li>
+            <li><a href="#services" class="hover:text-white transition">Ultrasonic Scaling</a></li>
+          </ul>
+        </div>
+
+        <!-- Working Hours & Contact -->
+        <div>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Visit Us</h4>
+          <p class="text-slate-400 leading-relaxed mb-2">
+            Chhapna Patharghata, Newtown, Kolkata - 700135
+          </p>
+          <p class="text-slate-300 font-semibold mb-1">
+            Call: +91 9046107636
+          </p>
+          <p class="text-[11px] text-slate-500">
+            Emergency dental inquiries accommodated on priority.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="mt-10 pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
+        <p>&copy; <span id="currentYear"></span> Dr. Soumita's Dental Care. All Rights Reserved.</p>
+        <p>Medical Disclaimer: Content provided is for patient awareness and is not a substitute for clinical dental examination.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP ACTION BUTTON -->
+  <a href="https://wa.me/919046107636?text=Hello%20Dr.%20Soumita's%20Dental%20Care,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer" aria-label="Book on WhatsApp" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white p-3.5 sm:px-4 sm:py-3 rounded-full shadow-2xl flex items-center gap-2 transform hover:scale-105 transition-all duration-200">
+    <i data-lucide="message-circle" class="w-6 h-6"></i>
+    <span class="hidden sm:inline font-bold text-xs tracking-wide">Book on WhatsApp</span>
+  </a>
+
+  <!-- INTERACTIVE SERVICE DETAIL MODAL -->
+  <div id="serviceModal" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative animate-fade-in border border-slate-100">
+      <button onclick="closeServiceModal()" class="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-700 rounded-full hover:bg-slate-100 transition">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center mb-4" id="modalIconContainer">
+        <i data-lucide="info" class="w-6 h-6" id="modalIcon"></i>
+      </div>
+
+      <h3 class="text-xl font-bold text-slate-900" id="modalTitle">Treatment Name</h3>
+      <p class="text-xs text-brand-600 font-semibold uppercase tracking-wider mt-0.5" id="modalSubtitle">Speciality</p>
+
+      <div class="mt-4 text-xs sm:text-sm text-slate-600 space-y-3 leading-relaxed" id="modalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between gap-3">
+        <button onclick="closeServiceModal()" class="px-4 py-2 text-xs font-semibold text-slate-600 hover:text-slate-800">
+          Close
+        </button>
+        <a href="#appointment" onclick="closeServiceModal()" class="px-5 py-2.5 text-xs font-bold bg-brand-600 text-white rounded-xl shadow-md hover:bg-brand-700 transition">
+          Book This Treatment
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOOKING CONFIRMATION MODAL -->
+  <div id="confirmationModal" class="fixed inset-0 z-50 hidden bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl text-center border border-emerald-100">
+      <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto mb-4">
+        <i data-lucide="check-circle-2" class="w-9 h-9"></i>
+      </div>
+
+      <h3 class="text-xl font-extrabold text-slate-900">Appointment Request Received!</h3>
+      <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed" id="confirmText">
+        Thank you. Our clinic team will call you shortly to confirm your scheduled slot.
+      </p>
+
+      <div class="mt-6 space-y-3">
+        <a id="whatsappConfirmBtn" href="#" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl text-xs sm:text-sm shadow-md transition">
+          <i data-lucide="message-circle" class="w-4 h-4"></i> Confirm Faster via WhatsApp
+        </a>
+        <button type="button" onclick="closeConfirmModal()" class="w-full py-2.5 text-xs font-semibold text-slate-600 hover:text-slate-900">
+          Done
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Set Copyright Year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Set default date to today or tomorrow
+    const dateInput = document.getElementById('preferredDate');
+    if (dateInput) {
+      const today = new Date().toISOString().split('T')[0];
+      dateInput.min = today;
+      dateInput.value = today;
+    }
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close mobile menu on link click
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // Service Data Dictionary for Interactive Modals
+    const serviceDetails = {
+      rct: {
+        title: "Single-Sitting Root Canal Treatment (RCT)",
+        subtitle: "Micro-Endodontic Therapy",
+        icon: "activity",
+        body: `
+          <p>Root canal treatment becomes necessary when deep decay or crack reaches the living pulp inside your tooth, causing acute pain or sensitivity.</p>
+          <p><strong>How we perform it:</strong> Using automated rotary NiTi instruments and precision electronic apex locators, we clean and seal the root canals swiftly, often completing the entire treatment in just 45-60 minutes without requiring repeated visits.</p>
+          <p><strong>Benefits:</strong> Preserves your natural jawbone structure, relieves severe pain permanently, and avoids the need for permanent tooth extraction.</p>
+        `
+      },
+      crowns: {
+        title: "Dental Crowns & Bridges",
+        subtitle: "Monolithic Zirconia & Aesthetic Ceramics",
+        icon: "shield",
+        body: `
+          <p>A crown is a protective cap placed over a weak or root-canal treated tooth to restore full chewing strength and avoid accidental tooth fractures.</p>
+          <p><strong>Materials Available:</strong> We provide Computer-Aided CAD/CAM Zirconia (indestructible & tooth-colored), E-Max aesthetic porcelain for front teeth, and PFM (Porcelain-Fused-to-Metal).</p>
+          <p><strong>Bridge:</strong> When you are missing a tooth, a bridge uses adjacent teeth as sturdy anchors to fill the gap naturally.</p>
+        `
+      },
+      whitening: {
+        title: "Teeth Whitening & Smile Designing",
+        subtitle: "Cosmetic Aesthetic Enhancement",
+        icon: "sparkles",
+        body: `
+          <p>Our professional in-office bleaching safely breaks down stubborn deep-set pigments caused by tea, coffee, smoking, and aging without causing long-term sensitivity.</p>
+          <p><strong>Aesthetic Makeover:</strong> We also offer composite veneers and gap closures to align uneven teeth and provide a confident, radiant smile.</p>
+        `
+      },
+      extractions: {
+        title: "Painless Tooth Extractions & Wisdom Surgery",
+        subtitle: "Atraumatic Oral Surgery",
+        icon: "scissors",
+        body: `
+          <p>When a tooth cannot be saved due to extensive destruction, or a wisdom tooth is impacted at an awkward horizontal angle, our atraumatic extraction protocol ensures smooth removal.</p>
+          <p>We use gentle localized numbing agents and specialized micro-elevators to protect surrounding gum tissue and jawbone for rapid, swelling-free healing.</p>
+        `
+      },
+      scaling: {
+        title: "Ultrasonic Scaling & Periodontal Care",
+        subtitle: "Deep Plaque & Tartar Cleansing",
+        icon: "droplets",
+        body: `
+          <p>Even regular brushing cannot eliminate hardened tartar (calculus) underneath the gum line. Tartar harbors billions of bacteria that lead to bad breath and spongy, bleeding gums.</p>
+          <p>Using vibration-based piezoelectric tips, we dislodge deposits safely without harming enamel. Recommended once every 6 months for a clean, fresh mouth.</p>
+        `
+      },
+      fillings: {
+        title: "Composite Invisible Fillings",
+        subtitle: "Direct Resin Restorations",
+        icon: "layers",
+        body: `
+          <p>Say goodbye to ugly dark silver mercury fillings. Our tooth-colored composite resins match your tooth shade with high precision.</p>
+          <p>The material chemically bonds directly to tooth structure, sealing microscopic margins and preventing secondary bacterial invasion.</p>
+        `
+      },
+      kids: {
+        title: "Paediatric / Child Dental Care",
+        subtitle: "Gentle Habits & Preventive Sealants",
+        icon: "smile",
+        body: `
+          <p>Milk teeth hold the vital space for permanent adult teeth. Early cavities can affect bite alignment and cause discomfort in growing children.</p>
+          <p>Dr. Soumita takes special care with nervous children, offering topical fluoride coatings, groove sealants, and pain-free restorations in a reassuring, friendly environment.</p>
+        `
+      },
+      dentures: {
+        title: "Complete & Partial Dentures",
+        subtitle: "Custom Prosthetics for Elderly Patients",
+        icon: "heart",
+        body: `
+          <p>Designed for patients who have lost multiple or all teeth. We fabricate lightweight, unbreakable flexible dentures as well as traditional high-durability acrylic sets.</p>
+          <p>Restores effortless mastication (chewing), improves speech phonetics, and prevents premature facial sagging around the cheeks and lips.</p>
+        `
+      }
+    };
+
+    function openServiceModal(serviceKey) {
+      const data = serviceDetails[serviceKey];
+      if (!data) return;
+
+      document.getElementById('modalTitle').textContent = data.title;
+      document.getElementById('modalSubtitle').textContent = data.subtitle;
+      document.getElementById('modalBody').innerHTML = data.body;
+      document.getElementById('serviceModal').classList.remove('hidden');
+      lucide.createIcons();
+    }
+
+    function closeServiceModal() {
+      document.getElementById('serviceModal').classList.add('hidden');
+    }
+
+    // Close modal on click outside
+    document.getElementById('serviceModal').addEventListener('click', (e) => {
+      if (e.target.id === 'serviceModal') closeServiceModal();
+    });
+
+    // FAQs Accordion Logic
+    function toggleFaq(id) {
+      const content = document.getElementById(`faq-content-${id}`);
+      const icon = document.getElementById(`faq-icon-${id}`);
+      
+      const isOpen = !content.classList.contains('hidden');
+      
+      // Close all
+      for (let i = 1; i <= 4; i++) {
+        const c = document.getElementById(`faq-content-${i}`);
+        const ic = document.getElementById(`faq-icon-${i}`);
+        if (c) c.classList.add('hidden');
+        if (ic) ic.classList.remove('rotate-180');
+      }
+
+      // If it was closed, open it
+      if (!isOpen) {
+        content.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      }
+    }
+
+    // Handle Appointment Form Submission
+    function handleAppointmentSubmit(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('patientName').value.trim();
+      const phone = document.getElementById('patientPhone').value.trim();
+      const service = document.getElementById('serviceType').value;
+      const date = document.getElementById('preferredDate').value;
+      const slot = document.getElementById('preferredSlot').value;
+      const concern = document.getElementById('patientConcern').value.trim();
+
+      // Construct prefilled WhatsApp message to the clinic number: +91 9046107636
+      const msg = `*Appointment Request - Dr. Soumita's Dental Care*%0A%0A` +
+                  `*Patient Name:* ${encodeURIComponent(name)}%0A` +
+                  `*Phone:* ${encodeURIComponent(phone)}%0A` +
+                  `*Treatment Needed:* ${encodeURIComponent(service)}%0A` +
+                  `*Date:* ${encodeURIComponent(date)}%0A` +
+                  `*Preferred Slot:* ${encodeURIComponent(slot)}%0A` +
+                  (concern ? `*Symptoms/Notes:* ${encodeURIComponent(concern)}%0A` : '') +
+                  `*Location:* Chhapna Patharghata Newtown Clinic`;
+
+      const whatsappUrl = `https://wa.me/919046107636?text=${msg}`;
+
+      // Update Confirmation Modal
+      document.getElementById('confirmText').innerHTML = 
+        `Thank you <strong>${name}</strong>! Your consultation request for <strong>${service}</strong> on <strong>${date}</strong> (${slot}) has been logged. You can also send the details straight to our WhatsApp for immediate confirmation.`;
+      
+      document.getElementById('whatsappConfirmBtn').href = whatsappUrl;
+      document.getElementById('confirmationModal').classList.remove('hidden');
+
+      // Clear Form
+      document.getElementById('bookingForm').reset();
+      lucide.createIcons();
+    }
+
+    function closeConfirmModal() {
+      document.getElementById('confirmationModal').classList.add('hidden');
+    }
+
+    document.getElementById('confirmationModal').addEventListener('click', (e) => {
+      if (e.target.id === 'confirmationModal') closeConfirmModal();
+    });
+  </script>
+</body>
+</html>
